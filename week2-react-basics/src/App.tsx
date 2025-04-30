@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import './index.css';
 
+import Message from "./components/Message";
+import CountNextMessage from "./components/CountNextMessage";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -14,8 +17,17 @@ function App() {
       {
         count === 5 && <p>5回クリックしたよ！</p>
       }
+      <Message hoge="hoge" text="これは子コンポーネントです！" />
+      <CountNextMessage count={count} />
+      <button onClick={() => setCount(count - 1)}>
+        減らす
+      </button>
+      <button onClick={() => setCount(0)}>
+        リセット
+      </button>
+
     </div>
   );
 }
 
-export default App;
+export default App; 
