@@ -2,7 +2,11 @@ body {
   font-family: sans-serif;
   text-align: center;
   margin: 2rem;
+<<<<<<< HEAD
   background-color: #f0f8ff;
+=======
+  background-color: white;
+>>>>>>> template/main
 }
 
 button {

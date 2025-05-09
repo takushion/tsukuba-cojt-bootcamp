@@ -1,6 +1,10 @@
 body {
   font-family: sans-serif;
+<<<<<<< HEAD
   background-color: #73f380;
+=======
+  background-color: #f0f8ff;
+>>>>>>> template/main
   text-align: center;
   padding: 2rem;
 }
@@ -16,4 +20,8 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> template/main
